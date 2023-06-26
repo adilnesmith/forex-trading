@@ -1,5 +1,5 @@
 {
-  "name": "forex",
+  "name": "forex-trading",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -17,6 +17,11 @@
     "next": "13.4.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.1.3"
+    "react-table": "^7.8.0",
+    "typescript": "5.1.3",
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {
+    "@types/websocket": "^1.0.5"
   }
 }

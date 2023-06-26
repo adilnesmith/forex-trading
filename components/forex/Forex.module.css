@@ -1,0 +1,34 @@
+.wrapper {
+    padding: 0 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    text-align: center;
+}
+
+.symbol-table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.symbol-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+}
+
+.symbol-table td {
+    text-align: left;
+    /* Left align the rows */
+}
+
+.symbol-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.symbol-table tbody tr:hover {
+    background-color: #e9e9e9;
+}
